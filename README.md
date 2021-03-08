@@ -81,3 +81,9 @@ docker-compose build
 chmod +x init-letsencrypt.sh
 sudo ./init-letsencrypt.sh
 ````
+dry run command
+```shell script
+docker-compose -p smartbotsweb -f /home/reminder/smart-bots-web/env/docker/prod/docker-compose.yaml 
+run --rm --entrypoint "certbot --dry-run certonly --webroot -w /var/www/certbot         
+ --email gadjievsaid.1995@gmail.com      -d smartbots.click   --rsa-key-size 4096" certbot
+```
