@@ -7,7 +7,6 @@
 </head>
 
 <body>
-<a href="https://t.me/SmartVideoConverterBot">SmartVideoConverterBot</a> -<br>
-<span>Telegram bot to convert and compress video</span>
+<span>I'm alive</span>
 </body>
 </html>

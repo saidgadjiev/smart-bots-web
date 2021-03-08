@@ -1,0 +1,21 @@
+version: '3'
+services:
+  nginx:
+    container_name: nginx
+    image: nginx:stable-alpine
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ../../nginx/dev:/etc/nginx/conf.d
+    depends_on:
+      - web
+  web:
+    container_name: web
+    restart: always
+    build: ../../../
+    volumes:
+      - ../../../logs:/web/logs
+    ports:
+      - 5005:5005
+      - 8080:8080
