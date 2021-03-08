@@ -1,7 +1,8 @@
 To assign domain to digital ocean droplet in porkbun add nameservers to AUTHORITATIVE NAMESERVERS and wait some time
 
-https:
-correct in init-letsencrypt.sh docker-compose paths and data folder path. To dry run use --dry-run option for certbot
+https for hostname without www. For www you need to add additional settings to dns records:
+correct in init-letsencrypt.sh docker-compose paths and data folder path and remove domain with www.
+ To dry run use --dry-run option for certbot
 
 docker-compose:
 ```shell script
