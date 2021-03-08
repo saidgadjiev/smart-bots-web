@@ -14,8 +14,8 @@
 </head>
 
 <body>
-<div class="container-fluid py-4">
-    <div class="d-flex justify-content-center">
+<div class="container-fluid py-5">
+    <div class="d-flex justify-content-center fixed-top pt-2">
         <h2 class="font-weight-light">Smart telegram bots</h2>
     </div>
     <div class="row flex-row flex-nowrap">
