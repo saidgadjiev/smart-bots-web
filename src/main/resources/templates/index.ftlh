@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Home page</title>
+    <title>Smart bots</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 
     <style>
         .card {
             height: 200px;
         }
+        .py-8 {
+            padding-top: 8em;
+            padding-bottom: 8em;
+        }
     </style>
 </head>
 
 <body>
-<div class="container-fluid py-5">
-    <div class="d-flex justify-content-center fixed-top pt-2">
+<div class="container-fluid py-8">
+    <div class="d-flex justify-content-center fixed-top pt-5">
         <h2 class="font-weight-light">Smart telegram bots</h2>
     </div>
     <div class="row flex-row flex-nowrap">
