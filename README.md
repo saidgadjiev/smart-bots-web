@@ -1,0 +1,1 @@
+To assign domain to digital ocean droplet in porkbun add nameservers to AUTHORITATIVE NAMESERVERS and wait some time
