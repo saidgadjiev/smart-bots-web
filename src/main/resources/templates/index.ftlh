@@ -12,17 +12,17 @@
             height: 200px;
         }
 
-        .py-8 {
-            padding-top: 8em;
-            padding-bottom: 8em;
+        .py-10 {
+            padding-top: 10em;
         }
     </style>
 </head>
 
 <body>
-<div class="container-fluid py-8">
-    <div class="d-flex justify-content-center fixed-top pt-5">
-        <h2 class="font-weight-light">Smart telegram bots(daily ~1500 users)</h2>
+<div class="container-fluid py-10">
+    <div class="fixed-top pt-5">
+        <h2 class="d-flex justify-content-center font-weight-light">Smart telegram bots</h2>
+        <h2 class="d-flex justify-content-center font-weight-light">(daily ~1500 active users)</h2>
     </div>
     <div class="row flex-row flex-nowrap">
         <div class="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-12">
