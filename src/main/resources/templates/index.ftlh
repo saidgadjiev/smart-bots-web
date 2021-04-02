@@ -11,6 +11,7 @@
         .card {
             height: 200px;
         }
+
         .py-8 {
             padding-top: 8em;
             padding-bottom: 8em;
@@ -27,10 +28,26 @@
         <div class="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-12">
             <div class="card text-dark bg-light">
                 <div class="card-body">
-                    <a href="https://t.me/SmartVideoConverterBot">
-                        <h5 class="card-title">@SmartVideoConverterBot</h5>
+                    <a href="https://t.me/SmartPaymentBot">
+                        <h5 class="card-title text-center">@SmartPaymentBot</h5>
                     </a>
-                    <ul>
+                    <ul class="mt-4">
+                        <li>The bot for buying a subscription to the bots
+                            <ul>
+                                <li><b>1 month - $1</b></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-5 col-sm-7 col-xs-12">
+            <div class="card text-dark bg-light">
+                <div class="card-body">
+                    <a href="https://t.me/SmartVideoConverterBot">
+                        <h5 class="card-title text-center">@SmartVideoConverterBot</h5>
+                    </a>
+                    <ul class="mt-4">
                         <li>Convert video to other formats</li>
                         <li>Compress video</li>
                         <li>Change video resolution</li>
@@ -43,9 +60,9 @@
             <div class="card text-dark bg-light">
                 <div class="card-body">
                     <a href="https://t.me/SmartConverter_bot">
-                        <h5 class="card-title">@SmartConverter_bot</h5>
+                        <h5 class="card-title text-center">@SmartConverter_bot</h5>
                     </a>
-                    <ul>
+                    <ul class="mt-4">
                         <li>Convert document, link, image, sticker, text to other formats</li>
                         <li>Merge pdf files</li>
                         <li>Create sticker from image</li>
@@ -58,9 +75,9 @@
             <div class="card text-dark bg-light">
                 <div class="card-body">
                     <a href="https://t.me/SmartAudioConverterBot">
-                        <h5 class="card-title">@SmartAudioConverterBot</h5>
+                        <h5 class="card-title text-center">@SmartAudioConverterBot</h5>
                     </a>
-                    <ul>
+                    <ul class="mt-4">
                         <li>Convert audio to other formats</li>
                         <li>Compress audio</li>
                         <li>Change audio bitrate</li>
@@ -72,12 +89,12 @@
             <div class="card text-dark bg-light">
                 <div class="card-body">
                     <a href="https://t.me/SmartFileUtilsBot">
-                        <h5 class="card-title">@SmartFileUtilsBot</h5>
+                        <h5 class="card-title text-center">@SmartFileUtilsBot</h5>
                     </a>
-                    <ul>
-                        <li>Convert audio to other formats</li>
-                        <li>Compress audio</li>
-                        <li>Change audio bitrate</li>
+                    <ul class="mt-4">
+                        <li>Extract text from an image</li>
+                        <li>Create an archive</li>
+                        <li>Image editor</li>
                     </ul>
                 </div>
             </div>
@@ -86,9 +103,9 @@
             <div class="card text-dark bg-light">
                 <div class="card-body">
                     <a href="https://t.me/SmartUnzipperBot">
-                        <h5 class="card-title">@SmartUnzipperBot</h5>
+                        <h5 class="card-title text-center">@SmartUnzipperBot</h5>
                     </a>
-                    <ul>
+                    <ul class="mt-4">
                         <li>Extract files from archive</li>
                     </ul>
                 </div>
@@ -98,9 +115,9 @@
             <div class="card text-dark bg-light">
                 <div class="card-body">
                     <a href="https://t.me/SmartRenamerBot">
-                        <h5 class="card-title">@SmartRenamerBot</h5>
+                        <h5 class="card-title text-center">@SmartRenamerBot</h5>
                     </a>
-                    <ul>
+                    <ul class="mt-4">
                         <li>Rename telegram files</li>
                     </ul>
                 </div>
