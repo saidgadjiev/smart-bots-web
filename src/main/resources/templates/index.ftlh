@@ -3,7 +3,6 @@
 <head>
     <title>Smart bots</title>
     <meta charset="UTF-8">
-    <meta name="interkassa-verification" content="a69d75eb7fcb15a36cf21a2ed45b3cd3" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
